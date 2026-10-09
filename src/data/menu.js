@@ -1,0 +1,8 @@
+const m=(name,desc,ing,price,tag)=>({name,desc,ing,price,tag})
+export const menu={
+Starters:[m('Charred Octopus','Smoked paprika, crisp potato','octopus, paprika, potato, aioli',16,'spicy'),m('Burrata & Ember Tomato','Slow-roasted tomato, basil oil','burrata, tomato, basil, sourdough',14,'veg'),m('Beef Tartare','Hand-cut, cured yolk','beef, yolk, capers, rye',17)],
+'Main Courses':[m('Truffle Ribeye','Dry-aged, truffle butter','ribeye, truffle, shallot, thyme',32),m('Fire-Roasted Chicken','Brined 24 hours, pan jus','chicken, lemon, garlic, jus',24),m('Wild Mushroom Wellington','Puff pastry, madeira cream','mushroom, pastry, thyme, madeira',22,'veg')],
+Pasta:[m('Midnight Pasta','Squid-ink tagliolini','squid ink, garlic, chili, lemon',19,'spicy'),m('Brown Butter Gnocchi','Sage, hazelnut','potato, butter, sage, hazelnut',18,'veg'),m('Short Rib Pappardelle','Eight-hour braise','short rib, red wine, parmesan',21)],
+Seafood:[m('Ember Salmon','Cedar-smoked','salmon, fennel, citrus',27),m('Grilled Prawns','Chili-lime butter','prawns, chili, lime, garlic',26,'spicy'),m('Seared Scallops','Cauliflower, brown butter','scallops, cauliflower, caper',28)],
+Desserts:[m('Golden Cheesecake','Burnt honey','cream cheese, honey, oats',12,'veg'),m('Dark Chocolate Fondant','Warm centre, sea salt','chocolate, egg, salt, cream',13,'veg'),m('Smoked Vanilla Ice Cream','House-churned','vanilla, cream, oak smoke',9,'veg')],
+Drinks:[m('Ember Old Fashioned','Smoked bourbon','bourbon, bitters, orange',14),m('Blood Orange Spritz','Light and bitter','prosecco, blood orange, soda',12),m('House Lemonade','Rosemary, honey','lemon, rosemary, honey',6,'veg')]}
